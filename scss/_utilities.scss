@@ -4,3 +4,38 @@
   margin: auto;
   overflow: hidden;
 }
+
+// Buttons
+%btn-shared {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  transition: all 0.5s;
+  border: none;
+  cursor: pointer;
+}
+
+.btn {
+  &-main {
+    @extend %btn-shared;
+    color: #333;
+    background-color: $main-color;
+  }
+  &-light {
+    @extend %btn-shared;
+    color: #333;
+    background-color: $light-color;
+  }
+  &-dark {
+    @extend %btn-shared;
+    color: #f4f4f4;
+    background-color: $dark-color;
+  }
+}
+
+//The below means that any button/input/a with the class btn-(anything), on hover, will have the same background color change
+// https://stackoverflow.com/questions/3338680/is-there-a-css-selector-by-class-prefix
+button[class^="btn-"]:hover,
+input[class^="btn-"]:hover,
+a[class^="btn-"]:hover {
+  background-color: $main-color;
+}
