@@ -39,3 +39,8 @@ input[class^="btn-"]:hover,
 a[class^="btn-"]:hover {
   background-color: $main-color;
 }
+
+.lead {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
