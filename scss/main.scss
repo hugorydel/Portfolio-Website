@@ -1,4 +1,5 @@
 @import "config";
+@import "utilities";
 
 // General Styles
 * {
@@ -48,5 +49,6 @@ img {
   }
 
   &-inner {
+    background: $bg-image no-repeat center right / cover;
   }
 }
