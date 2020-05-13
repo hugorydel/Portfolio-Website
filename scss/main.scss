@@ -73,7 +73,6 @@ img {
     height: 100vh;
     color: #fff;
 
-    // Header Inner
     .header-content {
       text-align: center;
       padding-top: 20%;
@@ -85,6 +84,18 @@ img {
     }
   }
 
+  // Header Inner
   &-inner {
+  }
+}
+
+// Home Sections
+#home {
+  &-a {
+    .specials {
+      margin-top: 3rem;
+      display: grid;
+      gap: 1rem;
+    }
   }
 }
