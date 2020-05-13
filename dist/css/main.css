@@ -61,7 +61,10 @@ a[class^="btn-"]:hover {
 
 .section-title {
   font-size: 2rem;
-  display: block; }
+  display: block;
+  padding-bottom: 0.5rem;
+  text-align: center;
+  text-transform: uppercase; }
 
 .bottom-line {
   height: 2px;
@@ -156,3 +159,13 @@ img {
       background: #f4f4f4; }
     #home-b .stats div:nth-child(even) {
       background: #ccc; }
+
+#home-c .process {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  text-align: center; }
+  #home-c .process-step {
+    position: absolute;
+    top: 0;
+    right: 0; }
