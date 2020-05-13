@@ -81,3 +81,16 @@ a[class^="btn-"]:hover {
     margin: 4rem 0;
   }
 }
+
+.section-title {
+  font-size: 2rem;
+  display: block;
+}
+
+.bottom-line {
+  height: 2px;
+  width: 3rem;
+  background: $main-color;
+  display: block;
+  margin: 1rem auto 1rem auto;
+}
