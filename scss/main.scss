@@ -322,6 +322,8 @@ img {
 
 			.text-input {
 				padding: 0.5rem 1rem;
+				border: 1px solid darken($color: $light-color, $amount: 20%);
+				border-radius: 5px;
 			}
 		}
 		button[type='submit'] {
