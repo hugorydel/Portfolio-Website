@@ -149,7 +149,7 @@ img {
       &-icon {
         border-radius: 50%;
         background: $dark-color;
-        color: #fff;
+        color: set-text-color($dark-color);
         padding: 2rem;
         width: 70px;
         height: 70px;
@@ -161,6 +161,7 @@ img {
           transform: scale(1.2);
           .process-step {
             background-color: $dark-color;
+            color: set-text-color($dark-color);
           }
         }
       }
@@ -172,6 +173,7 @@ img {
         right: 0;
         font-size: 1.5rem;
         background-color: $main-color;
+        color: set-text-color($main-color);
         border-radius: 50%;
         height: 15px;
         width: 15px;

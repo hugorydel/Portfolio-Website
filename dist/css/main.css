@@ -167,7 +167,7 @@ img {
   #home-c .process-icon {
     border-radius: 50%;
     background: #333;
-    color: #fff;
+    color: #f3f3f3;
     padding: 2rem;
     width: 70px;
     height: 70px;
@@ -177,13 +177,15 @@ img {
       background: #ffbc00;
       transform: scale(1.2); }
       #home-c .process-icon:hover .process-step {
-        background-color: #333; }
+        background-color: #333;
+        color: #f3f3f3; }
   #home-c .process-step {
     position: absolute;
     top: 0;
     right: 0;
     font-size: 1.5rem;
     background-color: #ffbc00;
+    color: #f3f3f3;
     border-radius: 50%;
     height: 15px;
     width: 15px;
