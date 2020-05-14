@@ -238,7 +238,7 @@ img {
 			height: 20px;
 			background: $medium-color;
 			border-radius: 5px;
-			margin-bottom: 0.3rem;
+			margin-bottom: 0.6rem;
 
 			div {
 				height: 100%;
@@ -246,6 +246,17 @@ img {
 				text-align: center;
 				background-color: $main-color;
 			}
+		}
+	}
+	&-c {
+		.about-logos {
+			display: grid;
+			grid-template-columns: repeat(4, 1fr);
+			gap: 2rem;
+		}
+
+		img {
+			width: 70%;
 		}
 	}
 }
