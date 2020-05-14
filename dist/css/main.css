@@ -163,8 +163,7 @@ img {
 #home-c .process {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 1.5rem;
-  text-align: center; }
+  gap: 1.5rem; }
   #home-c .process-icon {
     border-radius: 50%;
     background: #333;
@@ -174,6 +173,11 @@ img {
     height: 70px;
     position: relative;
     transition: all 1s; }
+    #home-c .process-icon:hover {
+      background: #ffbc00;
+      transform: scale(1.2); }
+      #home-c .process-icon:hover .process-step {
+        background-color: #333; }
   #home-c .process-step {
     position: absolute;
     top: 0;
